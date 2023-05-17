@@ -21,45 +21,61 @@
             <li><a href="Ingresar" style= "text-decoration: none;  color: black ">Ingresar</li></a>
         </ul>
     </nav>
+    
+</header>
 
-        <h2>Curso de programación web con React</h2>
+        
 
-
-    </header>
 
 
     <main>
 
-        <div class="logo">
-            <div><img src="./img/Logo__BIT-1.png" alt="logoBit "></div> 
-            <div> <img src="./img/Logo_amcham.png" alt="logoAmcham"></div>
-        </div>
-            <p>Con este curso aprenderas temas primordiales de programacion, iniciando con HTML, CSS, JAVASCRIPT Y REACT</p>
+        <h2>Curso de programación web con React</h2>
+
+   
+            <div class="logo">
+                <div><img src="./img/Logo__BIT-1.png" alt="logoBit " width="300px"></div> 
+                <div> <img src="./img/amcham.jpg" alt="logoAmcham" width ="300px"></div>
+            
+            </div>
+
+
+
+
+            <p>Con este curso aprenderas temas primordiales de programacion, iniciando con HTML, CSS, JAVASCRIPT Y REACT.</p>
+            
+            
 
             <h2> ¿Desea sumergirse en el hermoso mundo de la programacion?</h2>
 
             <form>        
                 <label> <input type="checkbox" id="Si" name="Si" > SI </label>
                 <label> <input type="checkbox" id="No" name="No" > NO </label>
-                <input type="submit">
-            </form>
-
+                <button type="submit">Enviar</button>
+        
             <p>Si su respuesta anterior fue si, escribanos en el siguiente recuadro que desea aprender</p>
 
-            <form>
-        
-                <textarea name="mensaje" id=" mensaje" rows=10, " required> </textarea>
-                <input type="submit">
+            
+            
+                <textarea name="mensaje" id=" mensaje"cols="30" rows="10" placeholder="Ingrese su mensaje"> </textarea>
+                <button type="submit">Enviar</button>
             </form>
+           
+               <p> Presionando el siguiente boton, puede dejar sus preguntas, quejas, recomendaciones y sugerencias.</p> 
+               
+                <div id="datos">   </div>
+                   <button onclick="agregarDatos()" >Agregar comentarios </button>
+              
 
-    </main>
 
     <footer>
         
-                <p>Para mas informacion llamar a los telefonos 6016509034, o escribir al correo bit.amchan@gmail.com</p> <br>
-                <p> Siguenos en nuestras redes sociales  </p>
+                <p>Para mas informacion llamar a los telefonos 6016509034, o escribir al correo bit.amchan@gmail.com</p>
+                <p> Siguenos en nuestras redes social de <i class="fa fa-instagram" > Instagram </i> </p>
+                
             
-                <i class="fa fa-instagram" > Instagram </i>
-            
+    </footer>    
+    
+    <script src="actividad2.js"></script>
 </body>
 </html>

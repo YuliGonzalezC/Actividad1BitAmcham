@@ -1,0 +1,155 @@
+*{
+    
+    font-family: 'Roboto';
+}
+
+body {
+    border-radius: 20px;
+}
+header{
+    background-color:rgb(205, 195, 203);
+    border-radius: 20px;
+    
+}
+
+.navegacion{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.navegacion ul{
+    display: flex;
+    align-items: center;
+}
+
+.list-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.list-container li{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+    padding: 4px;
+    margin: 4px;
+    font-weight: bold;
+    font-size: 1.5rem;;
+    
+}
+
+h1{
+    
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+h2{
+
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.logo{
+   display:flex;
+    justify-content: space-around;
+    margin: 5px;
+    
+}
+
+
+.logo img{
+    border-radius: 20px;
+    box-shadow: 8px 10px 10px 1px rgba(0,0,0,0.5);
+}
+
+button{
+   
+    height: 2rem;
+    margin: 1rem;
+    background-color: rgb(176, 203, 203);
+
+}
+
+p{
+    font-size:1.5rem;
+}
+
+input{
+    font-family: 'Roboto', sans;
+    font-size:1.2rem;
+}
+
+textarea{
+    border: 1px solid #ccc;
+}
+
+#datos{
+    border: 1px solid #ccc;
+    height: 5rem;
+    width: 50rem;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:rgb(205, 195, 203);
+    border-radius: 20px;
+    
+}
+
+
+
+
+@media (max-width:680px){
+
+    *{
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    }
+
+h1{
+    font-style:italic;
+    color: rgba(36, 53, 101, 0.817);
+}
+
+  body{
+    background-color:rgba(186, 149, 190, 0.185);
+
+    }
+
+    .logo img{
+    width:10rem;
+    height:12rem;
+    }
+
+    p{
+    font-size: 1rem;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+    }
+
+    .list-container{
+    display: flex;
+    flex-direction: column;
+    }
+
+    button{
+        border-radius: 3px;
+        background-color: rgba(36, 53, 101, 0.817); ;
+    }
+    
+
+    header, footer {
+        background-color: rgb(94, 162, 139);
+    }
+   
+
+}
+
+
+
+
